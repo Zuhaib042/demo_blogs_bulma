@@ -27,6 +27,16 @@ gem "stimulus-rails"
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
 
+# better errors
+
+gem 'better_errors', '~> 2.9', '>= 2.9.1'
+
+gem 'bulma-rails', '~> 0.9.4'
+
+gem 'simple_form', '~> 5.1'
+
+
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 
@@ -62,6 +72,9 @@ group :development do
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
+  gem 'guard', '~> 2.18'
+
+  gem 'guard-livereload', '~> 2.5', '>= 2.5.2'
 end
 
 group :test do
