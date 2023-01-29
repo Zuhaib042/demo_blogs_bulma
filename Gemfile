@@ -27,9 +27,7 @@ gem "stimulus-rails"
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
 
-# better errors
 
-gem 'better_errors', '~> 2.9', '>= 2.9.1'
 
 gem 'bulma-rails', '~> 0.9.4'
 
@@ -74,7 +72,10 @@ group :development do
   # gem "spring"
   gem 'guard', '~> 2.18'
 
-  gem 'guard-livereload', '~> 2.5', '>= 2.5.2'
+  gem 'guard-livereload', '~> 2.5', '>= 2.5.2' , require: false
+
+  # better errors
+  gem 'better_errors', '~> 2.9', '>= 2.9.1'
 end
 
 group :test do
