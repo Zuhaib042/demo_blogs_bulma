@@ -34,7 +34,6 @@ gem 'bulma-rails', '~> 0.9.4'
 gem 'simple_form', '~> 5.1'
 
 
-
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 
